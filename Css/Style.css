@@ -747,6 +747,7 @@ header .container .form i{
     display: flex;
     align-items: center;
     position: relative;
+    justify-content: center;
 }
 .subscripe::before{
     content: "";
@@ -829,7 +830,7 @@ header .container .form i{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 100px;
+    flex-basis:55%;
     max-width: 100%;
 }
 @media (max-width: 768px){
@@ -858,11 +859,13 @@ header .container .form i{
     color: white;
     align-self: flex-end;
     max-width: 100%;
+    margin-right:60px;
 }
 .contact-us .contact-info .addres{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    flex-basis:25%;
 }
 .contact-us .contact-info .number{
     text-transform: capitalize;
@@ -919,4 +922,3 @@ footer .container p{
 footer .container p span{
     color: var(--sub-color);
 }
-//finish this style 
